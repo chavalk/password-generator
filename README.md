@@ -8,4 +8,15 @@ The very first prompt the user is presented with after clicking the generate pas
 
 Once the user enters a valid number for the legth of the password, the first confirm is presented to the user. The user is asked to indicate the use of uppercase, lowercase, numbers, and/or symbols for the password to be generated. The user can select any combination of these character types. If the user does not make a selection, a while loop will alert the user to select at least one character type.
 
-After the user makes at least one selection, the application will generate a random password with the specified length
+After the user makes at least one selection, the application will generate a random password with the specified length and using characters from the selected criteria.
+
+Below are a couple of screenshots with the initial page and the results after going through the prompts:
+
+![Code refactor demo](./assets/images/initial.png)
+![Code refactor demo](./assets/images/results.png)
+
+## URL
+
+Here is a link to the live website:
+
+https://chavalk.github.io/password-generator/
