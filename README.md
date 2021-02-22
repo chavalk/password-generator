@@ -13,7 +13,7 @@ After the user makes at least one selection, the application will generate a ran
 Below are a couple of screenshots with the initial page and the results after going through the prompts:
 
 ![Code refactor demo](./assets/images/initial.png)
-![Code refactor demo](./assets/images/results.png)
+![Code refactor demo](./assets/images/result.png)
 
 ## URL
 
