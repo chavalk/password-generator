@@ -63,11 +63,12 @@ function generatePassword() {
   
   // Else if statement to generate random password when user selects lowercase, numbers, and symbols.
   else if(lowercaseConfirm && numbersConfirm && symbolsConfirm){
-    password += numbers[Math.floor(Math.random() * numbers.length)];
-    password += symbols[Math.floor(Math.random() * symbols.length)];
+    // password += numbers[Math.floor(Math.random() * numbers.length)];
+    // password += symbols[Math.floor(Math.random() * symbols.length)];
+    var choices = alphabetLowercase + numbers + symbols;
     // For loop to generate random password when user selects lowercase, numbers, and symbols.
     for (var i = 2; i < passwordLength; i++) {
-      password += alphabetLowercase[Math.floor(Math.random() * alphabetLowercase.length)];
+      password += choices[Math.floor(Math.random() * choices.length)];
     }
 
     return password; 
@@ -76,7 +77,6 @@ function generatePassword() {
   
   // Else if statement to generate random password when user selects numbers and symbols.
   else if(numbersConfirm && symbolsConfirm){
-    // password += symbols[Math.floor(Math.random() * symbols.length)];
     var choices = numbers + symbols;
     // For loop to generate random password when user selects numbers and symbols.
     for (var i = 1; i < passwordLength; i++) {
