@@ -76,10 +76,11 @@ function generatePassword() {
   
   // Else if statement to generate random password when user selects numbers and symbols.
   else if(numbersConfirm && symbolsConfirm){
-    password += symbols[Math.floor(Math.random() * symbols.length)];
+    // password += symbols[Math.floor(Math.random() * symbols.length)];
+    var choices = numbers + symbols;
     // For loop to generate random password when user selects numbers and symbols.
     for (var i = 1; i < passwordLength; i++) {
-      password += numbers[Math.floor(Math.random() * (numbers.length - 1))];
+      password += choices[Math.floor(Math.random() * (choices.length))];
     }
 
     return password; 
