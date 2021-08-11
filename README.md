@@ -10,7 +10,7 @@ An application meant to generate a random password based on criteria selected by
 
 The project allows users to generate a random password by selecting different criteria to be included or excluded in the generation of the password. Below is a GIF of the application in action.
 
-![work-day-scheduler](./images/work-day-scheduler.gif)
+![password-generator](./assets/images/password-generator.gif)
 
 ## Why is the project useful
 
