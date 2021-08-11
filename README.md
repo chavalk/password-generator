@@ -1,22 +1,41 @@
-# password-generator
+# Password Generator
 
-## Password-Generator Project
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This project involved creating the logic in javascript for the application to generate a random password using uppercase, lowercase, numbers, and/or symbols. The use of the four options mentioned depends on the user selection. The user indicates the length of the password with a minimum requirement of 8 characters and a maximum of 128 characters. 
+## Description
 
-The very first prompt the user is presented with after clicking the generate password button is for the length of the password. If the user enters a number outside of the mentioned parameter, a while loop will alert the user that invalid information was entered in and the prompt will be presented again.
+An application meant to generate a random password based on criteria selected by the user.
 
-Once the user enters a valid number for the legth of the password, the first confirm is presented to the user. The user is asked to indicate the use of uppercase, lowercase, numbers, and/or symbols for the password to be generated. The user can select any combination of these character types. If the user does not make a selection, a while loop will alert the user to select at least one character type.
+## What the project does
 
-After the user makes at least one selection, the application will generate a random password with the specified length and using characters from the selected criteria.
+The project allows users to generate a random password by selecting different criteria to be included or excluded in the generation of the password. Below is a GIF of the application in action.
 
-Below are a couple of screenshots with the initial page and the results after going through the prompts:
+![work-day-scheduler](./images/work-day-scheduler.gif)
 
-![Code refactor demo](./assets/images/initial.png)
-![Code refactor demo](./assets/images/result.png)
+## Why is the project useful
 
-## URL
+The project is a practical way for users to generate a random password to better protect access to any platform. It allows users to select the criteria they'd like to use for the generation of the password.
 
-Here is a link to the live website:
+## How can users get started with this project
+
+Simply navigate to the deployed version of the website by following the link below.
 
 https://chavalk.github.io/password-generator/
+
+## What technologies were used with this project
+
+* JavaScript
+* CSS
+* HTML
+
+## Where can users get help with your project
+
+My GitHub username is: chavalk
+
+Link: https://github.com/chavalk
+
+If you have additional questions, feel free to reach me at chavalk@hotmail.com.
+
+## Who maintains and contributes to the project
+
+Currently I'm the only person maintaining and contributing to the project.
